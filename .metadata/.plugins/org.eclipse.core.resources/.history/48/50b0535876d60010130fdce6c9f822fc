@@ -1,0 +1,20 @@
+package funciones;
+public class Triangulo {
+
+    public static void dibujarTriangulo(char letra, int anchura) {
+  
+        for (int i = 1; i <= 0; i++) {
+       
+            for (int j = anchura; j >= 1; j--) {
+                System.out.print(letra);
+            }
+           
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        
+        dibujarTriangulo('*', 500);
+    }
+}

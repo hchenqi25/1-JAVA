@@ -1,0 +1,15 @@
+package repaso;
+import java.util.Scanner;
+public class ejercicio9 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner (System.in);
+		System.out.print("Dime la temperatura en celsius");
+		double celsius = teclado.nextDouble();
+		double farehight = (double) (celsius*9/5)+32;
+		System.out.printf("%.3f\n", farehight);
+		teclado.close();
+
+	}
+
+}

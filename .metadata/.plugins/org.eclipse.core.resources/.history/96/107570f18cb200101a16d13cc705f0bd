@@ -1,0 +1,17 @@
+package repaso;
+import java.util.Scanner;
+public class ejercicio5 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner (System.in);
+		System.out.print("Dime un numero: ");
+		double num1 = teclado.nextDouble();
+		System.out.print("Dame otro numero: ");
+		double num2 = teclado.nextDouble();
+	double division = num1/num2;
+	
+	System.out.printf("%.2f\n", "El resultado de la division es de: " + division);
+	teclado.close();
+	}
+
+}

@@ -1,0 +1,19 @@
+package rep;
+
+public class ejercicio324 {
+
+	public static void main(String[] args) {
+		int numero = 2;
+		 while (true) {
+	            if (numero % 2 == 0 && String.valueOf(numero).startsWith("2")) {
+	                System.out.print("Número par que empieza por 2: " + numero);
+	            }
+	            numero+=2;
+	        }
+	    }
+	
+
+
+	}
+
+

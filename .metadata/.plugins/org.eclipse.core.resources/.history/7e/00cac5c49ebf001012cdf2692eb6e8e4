@@ -1,0 +1,16 @@
+package ejercicios_repaso;
+import java.util.Scanner;
+public class ejercicio5113 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner (System.in);
+		String frase = teclado.nextLine();
+		
+		StringBuilder frase1 = new StringBuilder(frase);
+		
+		//Muestro la frase original 
+		System.out.println(frase1.toString());
+
+	}
+
+}
